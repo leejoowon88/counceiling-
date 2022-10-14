@@ -3,7 +3,7 @@ from supabase import create_client, Client
 from flask import Flask, jsonify, request, Response
 
 url = "https://zvxlqpfkfudfdqedqoyu.supabase.co"
-key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp2eGxxcGZrZnVkZmRxZWRxb3l1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NjE5NTY2OTgsImV4cCI6MTk3NzUzMjY5OH0.1MfObcGD01cJhUEJC6sowQ71xWyXD__HNmDcM5ALwig"
+key = "키"
 
 supabase = create_client(url, key)
 
